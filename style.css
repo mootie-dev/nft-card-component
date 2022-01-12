@@ -9,6 +9,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -58,8 +59,7 @@ body {
 }
 
 .image {
-  margin: 1rem;
-  margin-top: 30px;
+  margin: 2rem;
   display: flex;
   justify-content: center;
   position: relative;
@@ -68,7 +68,7 @@ body {
 
 .image img {
   display: block;
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -84,8 +84,7 @@ body {
   opacity: 0;
   place-items: center;
   transition: opacity 0.5s;
-  margin-left: 17px;
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
   cursor: pointer;
 }
